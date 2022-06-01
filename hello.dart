@@ -8,4 +8,16 @@ main() {
 
   // Multiplicação - (Operação Aritmética)
   print(5*2);
+
+  // Soma
+  print(2+2);
+
+  // Subtração
+  print(5-2);
+
+  // Divisão
+  print(10/2);
+
+  // Módulo
+  print(10%3);
 }
