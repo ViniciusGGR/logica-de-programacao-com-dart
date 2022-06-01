@@ -1,7 +1,7 @@
 // Todo arquivo em Dart precisa da extensão ".dart"
 main() {
   // String
-	print("Hello World");
+  print("Hello World");
 
   // Printando um número
   print(5);
