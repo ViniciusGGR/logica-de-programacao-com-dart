@@ -47,7 +47,7 @@ main() {
   // Expressões numéricas:
   var total = 2 + 2 * 6 / 2 + 8;
   // Resultado = 16 - Em dart segue a mesma ordem de precedência da matemática.
-    // 1. Divisão/Multiplicação | 2. Soma/Subtração.
+    // 1. Divisão/Multiplicação | 2. Adição/Subtração.
   print(total);
 
   total = (2 + 2) * 6 / (2 + 8);
