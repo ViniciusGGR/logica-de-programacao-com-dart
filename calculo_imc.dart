@@ -6,16 +6,16 @@ main() {
 
 // Função responsável por coletar os dados da pessoa para calcular o IMC.
 personData() {
-  
+
   stdout.write("Qual é o seu nome: ");
   String name = (stdin.readLineSync()!); // !- Define que o valor não é nulo e o dart nunca deve aceitar o valor como null.
   
-  print("----------------------------");
+  print("------------------------------------------");
 
   stdout.write("Qual é a sua altura: ");
   double height = double.parse(stdin.readLineSync()!);
 
-  print("----------------------------");
+  print("------------------------------------------");
 
   stdout.write("Qual é o seu peso: ");
   double weight = double.parse(stdin.readLineSync()!);
@@ -24,9 +24,9 @@ personData() {
 }
 
 // Função responsável por realizar o cálculo IMC.
-calculoImc(name, height, weight) {
+calculoImc(String name, double height, double weight) {
 
-  print("----------------------------");
+  print("------------------------------------------");
 
   double result = weight / (height * height);
   double imcFormat = double.parse(result.toStringAsFixed(2));
@@ -35,7 +35,7 @@ calculoImc(name, height, weight) {
 }
 
 // Função responsável por printar o resultado do IMC.
-printResult(name, result, imcFormat) {
+printResult(String name, double result, double imcFormat) {
 
   if (result < 18.5) {
     print("$name, seu IMC está em $imcFormat/kg - Abaixo do peso.");
