@@ -19,10 +19,16 @@ void main() {
 
     int age = int.parse(ageInput); // Faz a conversão da variável ageInput de String para um int/inteiro.
 
-    if (age >= 18) {
-      print("Você é maior de idade");
+    if (age >= 60) {
+      print("Idoso");
+    } else if (age >= 18) {
+      print("Adulto");
+    } else if (age >= 12) {
+      print("Adolescente");
+    } else if (age >= 2) {
+      print("Criança");
     } else {
-      print("Você é menor de idade");
+      print("Bebê");
     }
 
   }
