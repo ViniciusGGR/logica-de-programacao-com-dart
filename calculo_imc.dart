@@ -1,6 +1,10 @@
 import 'dart:io';
 
 main() {
+  calculoImc();
+}
+
+calculoImc() {
   stdout.write("Qual é o seu nome: ");
   String name = (stdin.readLineSync()!); // !- Define que o valor não é nulo e o dart nunca deve aceitar como null.
 
