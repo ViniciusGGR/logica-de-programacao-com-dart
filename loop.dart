@@ -12,35 +12,35 @@ main() {
 
   print("-------------------------");
 
-  bool condition = true;
+  bool condition = true; // Variável com valor true que faz o while seguir a execução
   int y = 0;
 
   while (condition) {
     print("Número $y");
     if (y == 20) {
-      condition = false;
+      condition = false; // Quando o y == 20, essa condição passa a ser falsa e para o while.
     }
-    y++;
+    y++; // Incrementa mais 1 ao y até y ser igual a 20.
   }
 
   print("-------------------------");
 
-  bool math = true;
+  bool math = true; // Variável com valor true que faz o while seguir a execução
   int a = 1;
 
   stdout.write("Qual a tabuada de multiplicação você quer descobrir: ");
   int calc = int.parse(stdin.readLineSync()!);
 
   while (math) {
-    
+
     int tab = calc * a;
 
-    if (a <= 10) {
+    if (a <= 10) { // Até a variável a chegar a 10 o while segue sendo executado.
       print("$calc x $a = $tab");
     } else {
-      math = false;
+      math = false; // Para o loop while.
     }
 
-    a++;
+    a++; // Incrementa 1 ao a até chegar a 10.
   }
 }
