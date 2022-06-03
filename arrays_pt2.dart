@@ -18,4 +18,7 @@ main() {
   print("${listNames[2]} \n"); // Printa o dado que está na posição 2 do array.
     // O dado "William".
     // Dica: A posição no array começa com índice 0.
+
+  // Tipando um array de String.
+  List<String> names = ["Rodrigo", "Joel", "Gustavo", "Lucas", "Daniel", "Sofia", "Sandra"]; // Array com tipagem.
 }
