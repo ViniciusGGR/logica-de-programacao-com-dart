@@ -9,6 +9,12 @@ main() {
 
   print("$listNames \n");
 
+  listNames.remove("Guilherme"); // Removendo o dado pelo nome.
+
+  listNames.removeAt(5); // Removendo o dado pela posição no array.
+
+  print("$listNames \n");
+
   print("${listNames[2]} \n"); // Printa o dado que está na posição 2 do array.
     // O dado "William".
     // Dica: A posição no array começa com índice 0.
