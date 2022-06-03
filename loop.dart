@@ -35,7 +35,7 @@ main() {
 
     int tab = calc * a;
 
-    if (a <= 10) { // Até a variável a chegar a 10 o while segue sendo executado.
+    if (a <= 10) { // Até a variável "a" chegar a 10 o while segue sendo executado.
       print("$calc x $a = $tab");
     } else {
       math = false; // Para o loop while.
