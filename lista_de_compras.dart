@@ -25,6 +25,9 @@ main() {
     }
   }
 
-  print("------------------------------------------------");
-  print("Sua lista de compras é: $purchases \n");
+  print("------------------------------------------------ \n");
+  
+  for (int i = 0; i < purchases.length; i++) { // purchases.length = quantidade de "itens" dentro do array purchases.
+    print("Item $i - ${purchases[i]}"); // Imprime os produtos em uma lista com cada produto com seu indice.
+  }
 }
