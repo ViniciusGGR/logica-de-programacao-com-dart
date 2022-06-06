@@ -25,7 +25,7 @@ main() {
       print("\n");
 
       stdout.write("Digite o número do produto que deseja remover: "); // Digitar o número correspondente ao índice do produto do print que está no for.
-      int remove = int.parse(stdin.readLineSync()!);
+      int remove = int.parse(stdin.readLineSync()!); // Retorna uma String que será convertida para um inteiro.
 
       print("-------------------------------------");
       
