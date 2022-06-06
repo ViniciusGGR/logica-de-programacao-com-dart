@@ -14,7 +14,7 @@ main() {
 
       print("------ Programa finalizado ------ \n");
       condition = false;
-    } else if (item == "Remover") {
+    } else if (item == "Remover") { // Remover um item do array purchases.
 
       print("Qual item você deseja remover: ");
 
@@ -24,12 +24,12 @@ main() {
 
       print("\n");
 
-      stdout.write("Digite o número do produto que deseja remover: ");
+      stdout.write("Digite o número do produto que deseja remover: "); // Digitar o número correspondente ao índice do produto do print que está no for.
       int remove = int.parse(stdin.readLineSync()!);
 
       print("-------------------------------------");
       
-      print("Produto ${purchases.removeAt(remove)} removido da lista");
+      print("Produto ${purchases.removeAt(remove)} removido da lista"); // Printa o nome do produto na posição correspondente dentro do array.
 
       print("-------------------------------------");
 
