@@ -1,6 +1,7 @@
 main() {
 
-  var maps = { // Inicia-se um map como se fosse o escopo de uma função.
+  // Tipo String = Key | dynamic = valor da key, podendo ser qualquer tipo de dado.
+  Map<String, dynamic> maps = { // Inicia-se um map como se fosse o escopo de uma função.
     "name" : "Vinicius", // Primeiro valor é conhecido como key - Exemplo: "nome".
     "age" : 27,
     "city" : "Brasilia",
