@@ -9,4 +9,15 @@ void main(List<String> arguments) { // Recebe uma lista de argumentos.
   // Executando esse arquivo = dart bin/main.dart.
   // dart bin/main.dart Vinicius - Esse comando colocará o Vinicius dentro do array de argumentos.
 
+  // Com argumentos é possível fazer testes com estrutura de decisão.
+  if (arguments[0] == "Teste") {
+    
+    print("Testando o if");
+  
+  } else if (arguments[2] == "Imprimir") {
+    
+    print("Os argumentos são: $arguments");
+  
+  }
+
 }
