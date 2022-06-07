@@ -4,7 +4,7 @@ List<String> purchases = []; // Variável global
 
 bool condition = true; // Variável global
 
-main() {
+shoppingList() {
 
   while (condition) {
     stdout.write("Adicionar item a lista de compras [Sair|Remover]: ");

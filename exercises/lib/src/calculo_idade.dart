@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main() {
+ageCalculation() {
   // Verificar se uma pessoa é maior de idade (18)
 
   // Perguntar a idade da pessoa:
