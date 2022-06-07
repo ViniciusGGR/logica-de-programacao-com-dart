@@ -1,2 +1,3 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Criando a estrutura de um projeto em Dart.
+
+## Exemplo de uma estrutura simples de projeto.
