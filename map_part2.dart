@@ -67,8 +67,8 @@ register() {
 
   print("--------------------------------");
 
-  users.add(user);
+  users.add(user); // Adiciona o último user cadastrado a Lista/Array users.
 
-  print(users);
+  print(users); // Printa um array do map com os usuários.
 
 }
