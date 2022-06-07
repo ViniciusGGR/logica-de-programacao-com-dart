@@ -1,11 +1,7 @@
 import 'dart:io';
 
-void main() {
-  personData();
-}
-
 // Função responsável por coletar os dados da pessoa para calcular o IMC.
-personData() {
+bmiCalculation() {
 
   stdout.write("Qual é o seu nome: ");
   String name = (stdin.readLineSync()!); // !- Define que o valor não é nulo e o dart nunca deve aceitar o valor como null.
