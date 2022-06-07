@@ -1,8 +1,6 @@
 import 'dart:io';
 
-Map<String, dynamic> user = { // Map tipado e global.
-
-};
+List<Map<String, dynamic>> users = []; // List do tipo Map que tem sua Key do tipo String e o valor da Key do tipo dynamic.
 
 main() {
 
@@ -38,6 +36,8 @@ main() {
 }
 
 register() {
+
+  Map<String, dynamic> user = {}; // Map tipado.
   
   stdout.write("Qual é o seu nome: ");
   String nameInput = stdin.readLineSync()!;
@@ -67,6 +67,8 @@ register() {
 
   print("--------------------------------");
 
-  print(user);
+  users.add(user);
+
+  print(users);
 
 }
