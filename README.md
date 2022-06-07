@@ -5,8 +5,9 @@ Durante o curso foi apresentado conteúdos sobre: Algoritmos, Linguagens de Prog
 
 ### Exercícios:
 
-[**Cálculo Idade**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/calculo_idade.dart)
-[**Cálculo IMC**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/calculo_imc.dart)
-[**Lista de compras**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/lista_de_compras.dart)
-[**Map com Arrays**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/map_part2.dart)
+[**Cálculo Idade**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/calculo_idade.dart)  
+[**Cálculo IMC**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/calculo_imc.dart)  
+[**Lista de compras**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/lista_de_compras.dart)  
+[**Map com Arrays**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/blob/main/map_part2.dart)  
+
 [**Todos os exercícios em um projeto**](https://github.com/ViniciusGGR/logica-de-programacao-com-dart/tree/main/exercises)
