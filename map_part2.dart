@@ -1,6 +1,6 @@
 import 'dart:io';
 
-Map<String, dynamic> users = {
+Map<String, dynamic> user = { // Map tipado e global.
 
 };
 
@@ -11,35 +11,35 @@ main() {
   stdout.write("Qual é o seu nome: ");
   String nameInput = stdin.readLineSync()!;
 
-  users["name"] = nameInput; // Criando a key name dentro do map users e inserindo o valor digitado em nameInput ao name dentro do Map
+  user["name"] = nameInput; // Criando a key name dentro do map user e inserindo o valor digitado em nameInput ao name dentro do Map
 
-  print(users);
+  print(user);
 
   print("--------------------------------");
 
   stdout.write("Qual é a sua idade: ");
   int ageInput = int.parse(stdin.readLineSync()!);
 
-  users["age"] = ageInput; // Criando a key age dentro do map users e inserindo o valor digitado em ageInput ao name dentro do Map
+  user["age"] = ageInput; // Criando a key age dentro do map user e inserindo o valor digitado em ageInput ao age dentro do Map
 
-  print(users);
+  print(user);
 
   print("--------------------------------");
 
   stdout.write("Qual é o seu país: ");
   String countryInput = stdin.readLineSync()!;
 
-  users["country"] = countryInput; // Criando a key country dentro do map users e inserindo o valor digitado em countryInput ao name dentro do Map
+  user["country"] = countryInput; // Criando a key country dentro do map user e inserindo o valor digitado em countryInput ao country dentro do Map
 
-  print(users);
+  print(user);
 
   print("--------------------------------");
 
   stdout.write("Qual é a sua cidade: ");
   String cityInput = stdin.readLineSync()!;
 
-  users["city"] = cityInput; // Criando a key city dentro do map users e inserindo o valor digitado em cityInput ao name dentro do Map
+  user["city"] = cityInput; // Criando a key city dentro do map user e inserindo o valor digitado em cityInput ao city dentro do Map
 
-  print(users);
+  print(user);
 
 }
