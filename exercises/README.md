@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+#Exercício
+
+##Exercícios desenvolvidos durante o curso em um projeto.
+
+Cálculo Idade, Lista de compras, Cálculo IMC e Cadastro de pessoas.
