@@ -11,6 +11,10 @@ void main(List<String> arguments) {
 
   print("----------------------------------");
 
-  Smartphone smartphone = Smartphone("Samsung", "S10+", "Grey"); // Valores do construtor Smartphone direto na inicialização/Instanciação da classe Smartphone.
+  Smartphone smartphone = Smartphone(brand: "Samsung", model: "S10+", color: "Grey"); // Valores do construtor Smartphone direto na inicialização/Instanciação da classe Smartphone.
+
+  print(smartphone.brand); // Printando a marca do celular.
+  print(smartphone.model); // Printando o modelo do celular.
+  print(smartphone.color); // Printando a cor do celular.
   
 }
