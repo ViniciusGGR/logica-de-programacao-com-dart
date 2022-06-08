@@ -9,6 +9,11 @@ void main(List<String> arguments) {
   
   print(person.personalData()); // person. - Métodos, objetos e propriedades disponíveis para acessar na classe Person.
 
+  // Printando a classe Person e acessando as variáveis da classe Human, pois a classe Person está herdando a classe Human.
+  print(person.gender);
+  print(person.height);
+  print(person.weight);
+
   print("----------------------------------");
 
   Smartphone smartphone = Smartphone(brand: "Samsung", model: "S10+", color: "Grey"); // Valores do construtor Smartphone direto na inicialização/Instanciação da classe Smartphone.
