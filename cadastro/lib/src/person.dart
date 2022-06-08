@@ -15,9 +15,7 @@ class Person { // Nome da classe sempre deve começar com maiúscula.
 
     double imc = weight / (height * height);
     
-    double imcFormat = double.parse(imc.toStringAsFixed(2)); // Formata o resultado para ter duas casas décimais.
-    
-    return imcFormat;
+    return double.parse(imc.toStringAsFixed(2)); // Formata o resultado para ter duas casas décimais e rotorna esse valor formatado.
   
   }
 
@@ -31,7 +29,5 @@ class Person { // Nome da classe sempre deve começar com maiúscula.
     }
   
   }
-
-
 
 }

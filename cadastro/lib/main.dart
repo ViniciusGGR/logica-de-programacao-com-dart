@@ -30,10 +30,10 @@ void main(List<String> arguments) {
 
   print("\n");
 
-  print("IMC: ${person.imc()}/Kg");
+  print("IMC: ${person.imc()}/Kg"); // Acessando método de imc dentro da classe Person.
   
   print("\n");
   
-  print("Verificando idade: ${person.checkingAge()}");
+  print("Verificando idade: ${person.checkingAge()}"); // Acessando método de checkingAge dentro da classe Person.
 
 }
