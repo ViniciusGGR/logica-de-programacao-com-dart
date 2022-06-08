@@ -1,5 +1,3 @@
-
-import 'dart:async';
 import 'dart:io';
 
 // Uma class representa um objeto em POO.
@@ -16,6 +14,6 @@ class Person { // Nome da classe sempre deve começar com maiúscula.
     stdout.write("Qual é o seu gênero: ");
     String gender = stdin.readLineSync()!; // Variável gênero.
   
-  }
-
+  }  
+  
 }
